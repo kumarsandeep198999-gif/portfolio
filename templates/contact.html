@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Contact | Sandeep Kumar</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<header>
+    <nav class="navbar">
+
+        <div class="logo">
+            Sandeep Kumar
+        </div>
+
+        <div class="nav-links">
+            <a href="/">Home</a>
+            <a href="/about">About</a>
+            <a href="/skills">Skills</a>
+            <a href="/experience">Experience</a>
+            <a href="/projects">Projects</a>
+            <a href="/contact">Contact</a>
+        </div>
+
+    </nav>
+</header>
+
+
+<main class="page">
+
+    <section class="page-header">
+
+        <p class="small-title">GET IN TOUCH</p>
+
+        <h1>Contact Me</h1>
+
+        <p>
+            Feel free to contact me for IT Support,
+            Networking or Web Development opportunities.
+        </p>
+
+    </section>
+
+
+    <section class="contact-container">
+
+        <div class="contact-card">
+
+            <h2>Let's Connect</h2>
+
+            <p>
+                I am open to opportunities related to
+                IT Support, Desktop Support, Networking
+                and Web Development.
+            </p>
+
+            <div class="contact-item">
+                <strong>Name</strong>
+                <span>Sandeep Kumar</span>
+            </div>
+
+            <div class="contact-item">
+                <strong>Profession</strong>
+                <span>IT Support & Networking Professional</span>
+            </div>
+
+            <div class="contact-item">
+                <strong>Skills</strong>
+                <span>IT Support, Networking, Python & Flask</span>
+            </div>
+
+        </div>
+
+
+        <div class="contact-form">
+
+            <h2>Send a Message</h2>
+
+            <form>
+
+                <label for="name">
+                    Name
+                </label>
+
+                <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="Enter your name"
+                >
+
+
+                <label for="email">
+                    Email
+                </label>
+
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Enter your email"
+                >
+
+
+                <label for="message">
+                    Message
+                </label>
+
+                <textarea
+                    id="message"
+                    name="message"
+                    rows="6"
+                    placeholder="Enter your message"
+                ></textarea>
+
+
+                <button type="submit" class="btn">
+                    Send Message
+                </button>
+
+            </form>
+
+        </div>
+
+    </section>
+
+</main>
+
+
+<footer>
+    <p>© 2026 Sandeep Kumar. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
