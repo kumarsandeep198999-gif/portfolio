@@ -34,6 +34,7 @@
 
 <main>
 
+<!-- HERO SECTION -->
 <section class="hero">
 
     <div class="hero-content">
@@ -67,6 +68,12 @@
                 View Projects
             </a>
 
+            <a href="{{ url_for('static', filename='resume.pdf') }}"
+               class="btn"
+               download>
+                Download Resume
+            </a>
+
         </div>
 
     </div>
@@ -74,30 +81,75 @@
 </section>
 
 
+<!-- SERVICES / SKILLS -->
 <section class="home-cards">
 
     <div class="card">
-        <h3>IT Support</h3>
+        <h3>💻 IT Support</h3>
+
         <p>
             Windows installation, troubleshooting,
-            desktop support and user support.
+            desktop support, hardware troubleshooting
+            and user support.
         </p>
     </div>
 
+
     <div class="card">
-        <h3>Networking</h3>
+        <h3>🌐 Networking</h3>
+
         <p>
             TCP/IP, DNS, DHCP, LAN/WAN,
-            switches and routers.
+            switches, routers, IP configuration
+            and network troubleshooting.
         </p>
     </div>
 
+
     <div class="card">
-        <h3>Web Development</h3>
+        <h3>🐍 Web Development</h3>
+
         <p>
             Python, Flask, HTML, CSS and
-            JavaScript based websites.
+            JavaScript based responsive websites.
         </p>
+    </div>
+
+</section>
+
+
+<!-- PROFESSIONAL SUMMARY -->
+<section class="professional-section">
+
+    <div class="professional-content">
+
+        <p class="small-title">
+            PROFESSIONAL PROFILE
+        </p>
+
+        <h2>
+            Reliable IT Support & Networking Professional
+        </h2>
+
+        <p>
+            I have practical experience in computer hardware,
+            Windows troubleshooting, networking, desktop support
+            and user support. I also have knowledge of Python,
+            Flask and modern web development.
+        </p>
+
+        <div class="buttons">
+
+            <a href="/experience" class="btn">
+                View Experience
+            </a>
+
+            <a href="/contact" class="btn btn-outline">
+                Contact Me
+            </a>
+
+        </div>
+
     </div>
 
 </section>
@@ -106,7 +158,9 @@
 
 
 <footer>
-    <p>© 2026 Sandeep Kumar. All Rights Reserved.</p>
+    <p>
+        © 2026 Sandeep Kumar. All Rights Reserved.
+    </p>
 </footer>
 
 </body>
